@@ -6,6 +6,7 @@
 
 #	Running the the server
 -	Download Java 21 and add to PATH
+-	Download maven and add to PATH
 -	Run the server jar file using the scripts I've provided (e.g., `./compile_jar` then `./start_script`, or `./recompile_repeat`)
 -	If you're not on Linux, they probably won't work but the commands within those scripts will be approximately the same
 -	Connect to the server with the ip `localhost:25565` (unless you modified the `server-ip` or `server-port` fields in the `server.properties` file)

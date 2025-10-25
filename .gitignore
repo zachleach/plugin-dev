@@ -1,0 +1,13 @@
+.vscode/
+bin/
+tags
+.idea/
+*.iml
+*.log
+*.class
+target/
+dependency-reduced-pom.xml
+server/
+!server/paper.jar
+!server/server.properties
+!server/eula.txt

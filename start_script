@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# start_script
+# 2024.08.17, by @zachleach
+
+RAM='4096M'
+JARFILE='paper.jar'
+
+cd server
+java -Xms${RAM} -Xmx${RAM} -jar ${JARFILE} nogui

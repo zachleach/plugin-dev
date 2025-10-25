@@ -1,0 +1,4 @@
+name: change_this
+main: me.yourname.pluginname.Main
+version: '1.0'
+api-version: '1.21'

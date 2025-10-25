@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# recompile_repeat
+# 2024.08.16, by @zachleach
+
+# Compile and run the server in a loop
+# Ctrl + C in terminal to stop server and prompt for recompilation
+while true; do
+	./compile_jar
+	
+	# Check if compilation was successful
+	if [ $? -eq 0 ]; then
+		echo "Compilation successful!"
+		
+		./start_script
+		read -sp "Press ENTER to continue..." key && echo
+	else
+		echo "Compilation failed!"
+		read -sp "Press ENTER to recompile..." key && echo
+	fi
+done
